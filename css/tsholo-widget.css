@@ -1,0 +1,73 @@
+
+body{
+	background-color:rgb(0, 57, 92) !important;
+	
+  max-height: 3px !important;	
+}
+
+.ui.primary.button, .ui.primary.buttons .button {
+    background-color: #00aeef;
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+	margin-top: 20% ;
+	margin-left: 30%;
+	height: 80px !important;
+    width: 35%!important;
+	
+}
+
+.ui.button, .ui.buttons .button, .ui.buttons .or {
+    font-size: 2rem !important ;
+}
+
+img{
+	margin-left: 85% ;
+	margin-top: 0% !important ;
+}
+
+.ui.modal>.close {
+    color: transparent !important;
+}
+
+.ui.dimmer {  
+    background-color: #00aeef !important;
+}
+
+.header {
+    display: block;
+    background: #FFF !important;
+    margin: 0;
+    padding: 2rem 3rem !important;
+   
+}
+
+.actions {
+    background: #FFF !important;
+}
+.footer.segment {
+   margin-top: 90% !important;
+   background-color: #FFF !important;
+   padding: 5rem 0rem !important;
+}
+
+.ui.menu {
+    width: 100% !important;
+ 
+}
+.ui.form input:not([type]), .ui.form input[type=text], .ui.form input[type=email], .ui.form input[type=search], .ui.form input[type=password], .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=tel], .ui.form input[type=time], .ui.form input[type=file], .ui.form input[type=url], .ui.form input[type=number] {
+    
+    border: 1px solid #00aeef !important;
+    
+}
+.ui.form textarea {
+    border: 1px solid #00aeef !important;
+}
+select.ui.dropdown {
+   border: 1px solid #00aeef !important;
+}
+.ui.black.button, .ui.black.buttons .button {
+    background-color: #00aeef !important;
+    
+}
+#cccccc
