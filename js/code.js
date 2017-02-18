@@ -18,8 +18,8 @@ var userFeedback=
 
 console.log(userFeedback);
 
-$.post('Tsholo-Widget/save.json', userFeedback,function(data,status){
+$.post('http://httpbin.org/post', userFeedback,function(data,status){
 	console.log(data);
-	
+	console.log(status);
 });
 }
