@@ -1,17 +1,3 @@
-/*function showModal(){
-	$('.ui.modal')
-  .modal('show');
-}
-*/
-
-
-/*function showModal(){
-$('.fullscreen.modal')
-  .modal('show')
-;
-}
-*/
-
 function showModal(){
 	
 	console.log('clicked');
@@ -32,7 +18,8 @@ var userFeedback=
 
 console.log(userFeedback);
 
-$.post('Tsholo-Widget/save.jason', userFeedback,function(data,status){
+$.post('Tsholo-Widget/save.json', userFeedback,function(data,status){
 	console.log(data);
+	
 });
 }
