@@ -16,6 +16,7 @@ Installing Semantic UI
 2. cd semantic/
 3. gulp build
 
+Please navigate to tsholo-widget.html and run the html page :)
 
 
 
