@@ -11,9 +11,9 @@ body{
     text-shadow: none;
     background-image: none;
 	margin-top: 20% ;
-	margin-left: 30%;
-	height: 80px !important;
-    width: 35%!important;
+	margin-left: 35%;
+	height: 70px !important;
+    width: 30%!important;
 	
 }
 
@@ -76,6 +76,12 @@ select.ui.dropdown {
 	padding-top: 2%;
 }
 
+.ui.modal>.header {
+    
+    margin-left: 10% !important;
+   
+}
+
 /* Responsive Potrait*/
 
 @media only screen and (min-width: 320px) and (max-width: 414px) {
@@ -121,9 +127,9 @@ img{
 .ui.primary.button, .ui.primary.buttons .button {
     
 	margin-top: 70% ;
-	margin-left: 10%;
-	height: 60px !important;
-    width: 80%!important;
+	margin-left: 15%;
+	height: 50px !important;
+    width: 70%!important;
 }
 
 }
@@ -141,6 +147,12 @@ img{
 	margin-left: 22%;
 	height: 60px !important;
     width: 60%!important;
+}
+
+.ui.modal>.header {
+    
+    margin-left: 2% !important;
+   
 }
 
 
