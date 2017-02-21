@@ -16,8 +16,9 @@ Installing Semantic UI
 2. cd semantic/
 3. gulp build
 
-Please navigate to tsholo-widget.html and run the html page :)
+Please navigate to tsholo-widget.html and run the html page
 
+The data is submitted via the JSON object and you can view the submitted data by clicking on F12 to open your console and you shuld be able to see the data and whether it was successful.
 
 
 

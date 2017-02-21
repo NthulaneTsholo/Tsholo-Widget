@@ -32,6 +32,19 @@
     <div class="description">
       <div class="ui header">Tell us about your experience.</div>
       <form class="ui form" action="#" method="post" id="rating" name="form">
+	  
+	   <select class="ui dropdown" name="rating">
+  <option value="0">Thats what am talking about, I like your site because</option>
+  <option value="1">You should change or improve the following in your site</option>
+  <option value="3">Well.. I am not happy with your site because</option>
+  <option value="4">Great job, I will definately compliment you on</option>
+</select>
+
+
+  <div class="field">
+    <label class="message-title">Message</label>
+    <textarea rows="2" name="message"></textarea>
+</div>
   
   <div class="field">
     <label>Name</label>
@@ -42,19 +55,13 @@
     <label>Surname</label>
     <input type="text" name="surname" placeholder="surname">
   </div>
+  
+   <div class="field">
+    <label>Email address</label>
+    <input type="text" name="name" placeholder="Name">
+  </div>
  
-  <select class="ui dropdown" name="rating">
-  <option value="0">The experience was great</option>
-  <option value="1">The experience was moderate</option>
-  <option value="3">The experience was not so great</option>
-  <option value="4">The experience was bad</option>
-</select>
 
-
-  <div class="field">
-    <label>Message</label>
-    <textarea rows="2" name="message"></textarea>
-</div>
 </form >
     </div>
   </div>
